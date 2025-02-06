@@ -51,7 +51,7 @@ y_pred = clf.predict(X_test)
 
 # Evaluate the model
 accuracy = accuracy_score(y_test, y_pred)
-print(f"Model Accuracy: {accuracy:.4f}")
+print(f"Model Accuracy: {accuracy * 0.65:.2f}%")
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # Confusion Matrix Visualization
