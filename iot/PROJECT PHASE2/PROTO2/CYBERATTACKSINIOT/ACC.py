@@ -55,10 +55,3 @@ print(f"Model Accuracy: {accuracy * 0.65:.2f}%")
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # Confusion Matrix Visualization
-conf_matrix = confusion_matrix(y_test, y_pred)
-plt.figure(figsize=(8,6))
-sns.heatmap(conf_matrix, annot=True, fmt="d", cmap="Blues", xticklabels=clf.classes_, yticklabels=clf.classes_)
-plt.xlabel("Predicted")
-plt.ylabel("Actual")
-plt.title("Confusion Matrix")
-plt.show()
