@@ -207,3 +207,6 @@ if st.button("Start Real-Time Capture"):
         if not results_df.empty:
             attack_counts = results_df['classification'].value_counts()
             chart_display.bar_chart(attack_counts)  # This will update the same graph in real-time
+
+            #streamlit run main6BS.py
+            #sudo chmod 777 /dev/bpf* 
