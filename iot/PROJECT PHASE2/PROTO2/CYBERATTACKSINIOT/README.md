@@ -2,7 +2,7 @@
 
 ## 🚀 Project Overview
 
-This project implements a comprehensive **Real-Time Network Intrusion Detection System** specifically designed for IoT networks. The system captures live network traffic, analyzes packet features using machine learning models, and automatically detects and blocks malicious activities in real-time.
+This project implements a comprehensive **Cyberattacks in IOT Networks** specifically designed for IoT networks. The system captures live network traffic, analyzes packet features using machine learning models, and automatically detects and blocks malicious activities in real-time.
 
 ## 🎯 Key Features
 
